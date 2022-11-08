@@ -13,7 +13,7 @@ int main(){
     cin >>jumlah;
 
     for (a = 0; a < jumlah;a++){
-        cout <<"Masukkan Data anak ke-"<<a+1<<" = "<<endl;
+        cout <<"Masukkan Data anak ke-"<<a+1<<endl;
         cout <<"Masukkan Nama : ";
         cin >> nama[a];
         cout <<"Masukkan Nilai : ";
@@ -28,7 +28,7 @@ int main(){
         return 0;
     } else {
     for (a = 0; a < jumlah;a++){
-        cout <<"\nNilai dari "<<nilai[a]<<" adalah = "<<nilai[a]<<endl;
+        cout <<"\nNilai dari "<<nama[a]<<" adalah = "<<nilai[a]<<endl;
     }
     }
 
